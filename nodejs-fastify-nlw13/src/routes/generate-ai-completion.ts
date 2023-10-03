@@ -1,10 +1,10 @@
 import { FastifyInstance } from "fastify";
 import { z } from "zod";
+import { streamToResponse, OpenAIStream } from "ai";
 import { prisma } from "../lib/prisma";
 import { openai } from "../lib/openai";
-import { streamToResponse, OpenAIStream } from 'ai'
 
-export async function generateAICompletionRoute(app: FastifyInstance) {
+export async function generateAiCompletionRoute(app: FastifyInstance) {
   app.post("/ai/complete", async (req, reply) => {
     const bodySchema = z.object({
       videoId: z.string().uuid(),
