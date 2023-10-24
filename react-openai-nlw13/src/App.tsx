@@ -28,7 +28,7 @@ export function App() {
     completion,
     isLoading,
   } = useCompletion({
-    api: "http://localhost:3333/ai/complete",
+    api: "http://localhost:4444/ai/completion",
     body: {
       videoId,
       temperature,
