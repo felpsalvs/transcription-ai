@@ -1,60 +1,59 @@
-## Transcrição de Vídeo e Áudio com IA
-Uma aplicação poderosa que utiliza inteligência artificial para transcrever automaticamente vídeos e áudios em texto. Facilitando a organização e busca de conteúdo em mídias de vídeo e áudio.
+## Video and Audio Transcription with AI
+A powerful application that uses artificial intelligence to automatically transcribe videos and audios into text. Facilitating the organization and search of content in video and audio media.
 
-### Tecnologias Utilizadas
-Este projeto foi desenvolvido com as seguintes tecnologias:
- + @fastify/cors - Fornece funcionalidades de Cross-Origin Resource Sharing (CORS) para a sua API.
- + @fastify/multipart - Plugin do Fastify para lidar com solicitações multipart/form-data, útil para o upload de arquivos.
- + @prisma/client - ORM para interagir com um banco de dados SQL.
- + ai - Biblioteca para integração com serviços de IA, como reconhecimento de fala.
- + axios - Cliente HTTP para fazer requisições a serviços externos.
- + fastify - Um framework web rápido e eficiente para Node.js.
- + openai - Biblioteca para interagir com o serviço OpenAI para tarefas de IA.
- + zod - Uma biblioteca de validação de dados altamente eficiente e escalável.
- + @types/node - Pacote de definições de tipos para o ambiente Node.js.
- + dotenv - Carrega variáveis de ambiente de um arquivo .env para o seu projeto.
- + prisma - Ferramenta para ORM e migrações de banco de dados.
- + ts-node - Executa arquivos TypeScript diretamente no Node.js.
- + typescript - Um superset de JavaScript que adiciona tipagem estática.
- + @ffmpeg/ffmpeg - Framework para processamento de multimídia, usado para manipulação de áudio e vídeo.
- + @ffmpeg/util - Utilitários relacionados ao FFmpeg.
- + @radix-ui/react-icons - Ícones personalizáveis para sua aplicação.
- + @radix-ui/react-label - Componentes de rótulos acessíveis.
- + @radix-ui/react-select - Componente de seleção flexível.
- + @radix-ui/react-separator - Componente de separador.
- + @radix-ui/react-slider - Componente de controle deslizante.
- + @radix-ui/react-slot - Uma maneira de compartilhar lógica entre componentes.
- + class-variance-authority - Uma biblioteca relacionada à lógica de negócios específica do seu projeto.
- + clsx - Utilitário para gerar nomes de classe de maneira condicional.
- + fluent-ffmpeg-util - Utilitários relacionados ao Fluent-FFmpeg, provavelmente usado para interagir com @ffmpeg/ffmpeg.
- + lucide-react - Um pacote de ícones SVG que pode ser usado em seu aplicativo React.
- + react e react-dom - Bibliotecas para criar interfaces de usuário.
- + tailwind-merge - Utilitário para fundir classes CSS no estilo Tailwind CSS.
- + tailwindcss-animate - Um plugin para adicionar animações ao Tailwind CSS.
+### Technologies Used
+This project was developed with the following technologies:
+ + @fastify/cors - Provides Cross-Origin Resource Sharing (CORS) capabilities for your API.
+ + @fastify/multipart - Fastify plugin to handle multipart/form-data requests, useful for file uploads.
+ + @prisma/client - ORM to interact with a SQL database.
+ +ai - Library for integration with AI services such as speech recognition.
+ + axios - HTTP client for making requests to external services.
+ + fastify - A fast and efficient web framework for Node.js.
+ + openai - Library for interacting with the OpenAI service for AI tasks.
+ +zod - A highly efficient and scalable data validation library.
+ + @types/node - Type definitions package for the Node.js environment.
+ + dotenv - Loads environment variables from a .env file into your project.
+ + prism - Tool for ORM and database migrations.
+ + ts-node - Runs TypeScript files directly in Node.js.
+ + typescript - A JavaScript superset that adds static typing.
+ + @ffmpeg/ffmpeg - Framework for multimedia processing, used for audio and video manipulation.
+ + @ffmpeg/util - FFmpeg related utilities.
+ + @radix-ui/react-icons - Customizable icons for your application.
+ + @radix-ui/react-label - Accessible label components.
+ + @radix-ui/react-select - Flexible selection component.
+ + @radix-ui/react-separator - Separator component.
+ + @radix-ui/react-slider - Slider component.
+ + @radix-ui/react-slot - A way to share logic between components.
+ + class-variance-authority - A library related to your project's specific business logic.
+ + clsx - Utility to conditionally generate class names.
+ + fluent-ffmpeg-util - Utilities related to Fluent-FFmpeg, probably used to interact with @ffmpeg/ffmpeg.
+ +lucide-react - An SVG icon pack that can be used in your React app.
+ + react and react-dom - Libraries for creating user interfaces.
+ + tailwind-merge - Utility for merging CSS classes into Tailwind CSS style.
+ + tailwindcss-animate - A plugin for adding animations to Tailwind CSS.
 
-### Configuração
-Antes de começar, é importante configurar as variáveis de ambiente necessárias. Copie o arquivo .env.example para um novo arquivo .env e preencha-o com suas credenciais e configurações específicas.
+### Settings
+Before starting, it is important to configure the necessary environment variables. Copy the .env.example file to a new .env file and fill it with your specific credentials and settings.
 
 `cp .env.example .env`
 
-#### Instalação
-Para iniciar o projeto, siga as etapas abaixo:
+#### Installation
+To start the project, follow the steps below:
 
-Clone o repositório:
+Clone the repository:
 `git clone https://github.com/felpsalvs/nlw13`
 
-Navegue até o diretório do projeto:
+Navigate to the project directory:
 `cd nlw13`
 
-Instale as dependências:
+Install dependencies:
 `npm install`
 
-Inicie o aplicativo:
+Launch the application:
 `npm start`
 
-### Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga as diretrizes de contribuição. Certifique-se de criar um fork do repositório, criar uma branch para sua contribuição e enviar um pull request quando estiver pronto.
+### Contribution
+Contributions are welcome! If you want to contribute to this project, please follow the contribution guidelines. Be sure to fork the repository, create a branch for your contribution, and submit a pull request when you're ready.
 
-#### Licença
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
-
+#### License
+This project is licensed under the MIT License. See the LICENSE file for more information.
